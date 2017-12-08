@@ -44,7 +44,7 @@ In this Dashboard, you can see the visualized summaries of different gun type us
 
 In this Dashboard, you can explore the motives for the mass shooting in the general public.
 
-> [Mass shooting in school](https://augustxzh.shinyapps.io/p8105_final_website_zenghuishiny/)
+> [Mass Shooting in School](https://augustxzh.shinyapps.io/p8105_final_website_zenghuishiny/)
 
 This is a shiny app hosted online. Under the different tabs, you can see different statistics about the school-related mass shooting events.
 
