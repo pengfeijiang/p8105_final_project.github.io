@@ -9,10 +9,6 @@ title: "P8105 Final Project - US Mass Shooting"
 
 Photo credit: David Becker/Stringer/Getty Images
 
-## ScreenCast
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yg9VQTT2Jt8?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
 ## Summary of the project
 This is a brief summary of our final project for P8105 Data Science. The full project report can be viewed [**here**](P8105_Final_Report.html).
 
