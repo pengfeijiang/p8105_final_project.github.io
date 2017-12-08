@@ -29,11 +29,11 @@ ETL (Extract Transform and Load) was performed at the very beginning of this pro
 
 Here are several dashboards for exploratory analysis. In each dashboard, there is a different focus on one aspect of the dataset. Detailed comments and findings can be found in the full report [**here**](P8105_Final_Report.html).
 
-> [Interactive US Mass Shooting Map and Text Descriptive Analysis](P8105_final_dashboard_intro_song.html)
+> [Interactive US Mass Shooting Map and Descriptive Text Analysis](P8105_final_dashboard_intro_song.html)
 
 Under the _"Mass Shooting Incidence - Heat and Bubble Map"_ tab, you can see an interactive map showing the total number of mass shooting cases in each state and some of the major cities.
 
-Under the _"What is inside Descriptions? - Text Analysis"_ tab, the keywords from those incidents' descriptions are shown in different plots.
+Under the _"What are inside Descriptions? - Text Analysis"_ tab, the keywords from those incidents' descriptions are shown in different plots.
 
 
 > [Analyses of Gun Type Used](p8105_final_ShaoxuanChen_dashboard.html)
@@ -60,7 +60,7 @@ The trend for mass shootings is going up and the shooter tends to be younger. If
 
 
 ## Group Members Information
-Shaoxuan Chen(tc2900), Pengfei Jiang(pj2325), Shanshan Song(ss5422), Zenghui Xue(zx2231), and Huijuan Zhang(hz2510)
+[Shaoxuan Chen(tc2900)](https://github.com/ShaoxuanChen), [Pengfei Jiang(pj2325)](https://github.com/pengfeijiang), [Shanshan Song(ss5422)](https://github.com/shan2song), [Zenghui Xue(zx2231)](https://github.com/augustxzh), and [Huijuan Zhang(hz2510)](https://github.com/HuijuanZhang)
 
 [Department of Biostatistics](https://www.mailman.columbia.edu/become-student/departments/biostatistics)
 
