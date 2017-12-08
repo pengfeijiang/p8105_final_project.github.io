@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+### About this site
+
+This website is made for Data Science I class final project. Please explore the homepage to learn more about our project and email us if you have any questions.

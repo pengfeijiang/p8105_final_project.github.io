@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>P8105 Final Project - US Mass Shooting</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="mailto:&lt;pj2325@cumc.columbia.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/pengfeijiang/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">P8105 Final Project - US Mass Shooting</h1>
+
+</div>
+
+
+<div id="welcome-to-our-project-webpage" class="section level3">
+<h3>Welcome to our project webpage!</h3>
+<p><img src="images/index_news_image.jpg" style="width:90%"></p>
+<p>Photo credit: David Becker/Stringer/Getty Images</p>
+</div>
+<div id="summary-of-the-project" class="section level2">
+<h2>Summary of the project</h2>
+<p>This is a brief summary of our final project for P8105 Data Science. The full project report can be viewed <a href="P8105_Final_Report.html"><strong>here</strong></a>.</p>
+<div id="project-scope" class="section level4">
+<h4>Project Scope</h4>
+<p>This project is about mass shooting incidents (casualties greater than or equal to 3 people) occurred between 1966 and 2016. Our topic is “Mass Shootings in America (1966-2016)”. The project repo can be found <a href="https://github.com/shan2song/p8105_final"><strong>here</strong></a>. Our final project report is named <strong>“p8105_Final_Report.Rmd”</strong> and <strong>“p8105_Final_Report.html”</strong>. Our goal is to analyze the mass shooting events during this period to explore the potential causes and give out possible prevention suggestions. We are only using the credible multi-source certified data to keep internal validity. There are five members in this project (names listed at the bottom of this page). A hybrid of Agile and Waterfall project management methods were applied in this project. This can be seen in the commit and interactions histories in our GitHub repo. Tasks and stories were spread across the whole team and make individual deliveries to contribute to the final product. Collaborations were active and project activities including visioning, planning, documenting, developing, testing and presenting were all team efforts. Although there is no gold naming conventions and coding standards established in this class, we tried our best to practice as instructed by the teaching team and the feedbacks got from previous homework and midterm projects. Source control was achieved through Source Tree and GitHub Desktop applications, GitHub repo, and google docs.</p>
+</div>
+<div id="data" class="section level4">
+<h4>Data</h4>
+<p>Our source data was from <a href="https://library.stanford.edu/projects/mass-shootings-america">Stanford’s <em>Mass Shootings in America</em> Project</a>. The dataset we used can be found in the <a href="https://github.com/shan2song/p8105_final/tree/master/data">“data” folder in our repo</a>. For more details, please refer to our whole report <a href="P8105_Final_Report.html"><strong>here</strong></a>.</p>
+</div>
+<div id="approches" class="section level4">
+<h4>Approches</h4>
+<p>ETL (Extract Transform and Load) was performed at the very beginning of this project’s development phase. R was used to load the original dataset and executed data cleaning and tidy processes. A new dataset including the fixed data and new variables interested was created and stored as a separate CSV file. In this process, we cleaned and fixed the date for the general public. With the discovering interesting findings of the school mass shooting incidents, several new variables were created to narrow down the school-related data for easier visualizations and data analysis.</p>
+</div>
+<div id="visualizations" class="section level4">
+<h4>Visualizations</h4>
+<p>Here are several dashboards for exploratory analysis. In each dashboard, there is a different focus on one aspect of the dataset. Detailed comments and findings can be found in the full report <a href="P8105_Final_Report.html"><strong>here</strong></a>.</p>
+<blockquote>
+<p><a href="P8105_final_dashboard_intro_song.html">Interactive US Mass Shooting Map and Text Descriptive Analysis</a></p>
+</blockquote>
+<p>Under the <em>“Mass Shooting Incidence - Heat and Bubble Map”</em> tab, you can see an interactive map showing the total number of mass shooting cases in each state and some of the major cities.</p>
+<p>Under the <em>“What is inside Descriptions? - Text Analysis”</em> tab, the keywords from those incidents’ descriptions are shown in different plots.</p>
+<blockquote>
+<p><a href="p8105_final_ShaoxuanChen_dashboard.html">Analyses of Gun Type Used</a></p>
+</blockquote>
+<p>In this Dashboard, you can see the visualized summaries of different gun type used.</p>
+<blockquote>
+<p><a href="p8105_final_dashboard_motive_huijuanzhang.html">Motives for Mass Shooting</a></p>
+</blockquote>
+<p>In this Dashboard, you can explore the motives for the mass shooting in the general public.</p>
+<blockquote>
+<p><a href="https://augustxzh.shinyapps.io/p8105_final_website_zenghuishiny/">Mass shooting in school</a></p>
+</blockquote>
+<p>This is a shiny app hosted online. Under the different tabs, you can see different statistics about the school-related mass shooting events.</p>
+<p>Under the <em>“School-a hot spot of mass shooting”</em> tab, you can see the mass shooting incident and victim numbers by place type.</p>
+<p>Under the <em>“A bloody history-mass shooting”</em> tab, you can see the changes in numbers of victims and cases over the year.</p>
+<p>Under the <em>“Shooters in school”</em> tab, you can change the data range and explore shooters’ position in that school and why these students committed mass shootings.</p>
+</div>
+<div id="other-results-and-conclusions" class="section level4">
+<h4>Other Results and Conclusions</h4>
+<p>The trend for mass shootings is going up and the shooter tends to be younger. If we do not take precautions, there may be more serious gun issues in the near future. School shootings are persistent, however, this is a very concerning issue. Many students committed homicides because of excessive stress or mental problems, this should alert the educators to give more psychological interventions to guide the students on how to deal with pressure and failures. On the other hand, arising domestic violence is becoming a real trouble, especially for the past decade. To prevent mass shootings, all parties in the society should take actions. People should learn how to deal with troubles and conflicts by other means and how to protect themselves if there is a shooter-in-active situation. The government and Congress should take actions to regulate firearms more strictly if the gun ban is not a feasible option.</p>
+</div>
+</div>
+<div id="group-members-information" class="section level2">
+<h2>Group Members Information</h2>
+<p>Shaoxuan Chen(tc2900), Pengfei Jiang(pj2325), Shanshan Song(ss5422), Zenghui Xue(zx2231), and Huijuan Zhang(hz2510)</p>
+<p><a href="https://www.mailman.columbia.edu/become-student/departments/biostatistics">Department of Biostatistics</a></p>
+<p><a href="https://www.mailman.columbia.edu/">Columbia Mailman School of Public Health</a></p>
+<p>New York, New York 10032</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

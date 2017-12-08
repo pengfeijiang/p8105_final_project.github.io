@@ -1,0 +1,70 @@
+---
+title: "P8105 Final Project - US Mass Shooting"
+---
+
+### Welcome to our project webpage!
+
+
+<img src="images/index_news_image.jpg" style="width:90%">
+
+Photo credit: David Becker/Stringer/Getty Images
+
+## Summary of the project
+This is a brief summary of our final project for P8105 Data Science. The full project report can be viewed [**here**](P8105_Final_Report.html).
+
+#### Project Scope
+
+This project is about mass shooting incidents (casualties greater than or equal to 3 people) occurred between 1966 and 2016. Our topic is "Mass Shootings in America (1966-2016)". The project repo can be found [**here**](https://github.com/shan2song/p8105_final). Our final project report is named **"p8105_Final_Report.Rmd"** and **"p8105_Final_Report.html"**. Our goal is to analyze the mass shooting events during this period to explore the potential causes and give out possible prevention suggestions. We are only using the credible multi-source certified data to keep internal validity. There are five members in this project (names listed at the bottom of this page). A hybrid of Agile and Waterfall project management methods were applied in this project. This can be seen in the commit and interactions histories in our GitHub repo. Tasks and stories were spread across the whole team and make individual deliveries to contribute to the final product. Collaborations were active and project activities including visioning, planning, documenting, developing, testing and presenting were all team efforts. Although there is no gold naming conventions and coding standards established in this class, we tried our best to practice as instructed by the teaching team and the feedbacks got from previous homework and midterm projects. Source control was achieved through Source Tree and GitHub Desktop applications, GitHub repo, and google docs.
+
+#### Data
+
+Our source data was from [Stanford's *Mass Shootings in America* Project](https://library.stanford.edu/projects/mass-shootings-america). The dataset we used can be found in the ["data" folder in our repo](https://github.com/shan2song/p8105_final/tree/master/data). For more details, please refer to our whole report [**here**](P8105_Final_Report.html).
+
+
+#### Approches
+
+ETL (Extract Transform and Load) was performed at the very beginning of this project's development phase. R was used to load the original dataset and executed data cleaning and tidy processes. A new dataset including the fixed data and new variables interested was created and stored as a separate CSV file. In this process, we cleaned and fixed the date for the general public. With the discovering interesting findings of the school mass shooting incidents, several new variables were created to narrow down the school-related data for easier visualizations and data analysis. 
+
+#### Visualizations
+
+Here are several dashboards for exploratory analysis. In each dashboard, there is a different focus on one aspect of the dataset. Detailed comments and findings can be found in the full report [**here**](P8105_Final_Report.html).
+
+> [Interactive US Mass Shooting Map and Text Descriptive Analysis](P8105_final_dashboard_intro_song.html)
+
+Under the _"Mass Shooting Incidence - Heat and Bubble Map"_ tab, you can see an interactive map showing the total number of mass shooting cases in each state and some of the major cities.
+
+Under the _"What is inside Descriptions? - Text Analysis"_ tab, the keywords from those incidents' descriptions are shown in different plots.
+
+
+> [Analyses of Gun Type Used](p8105_final_ShaoxuanChen_dashboard.html)
+
+In this Dashboard, you can see the visualized summaries of different gun type used.
+
+> [Motives for Mass Shooting](p8105_final_dashboard_motive_huijuanzhang.html)
+
+In this Dashboard, you can explore the motives for the mass shooting in the general public.
+
+> [Mass shooting in school](https://augustxzh.shinyapps.io/p8105_final_website_zenghuishiny/)
+
+This is a shiny app hosted online. Under the different tabs, you can see different statistics about the school-related mass shooting events.
+
+Under the _"School-a hot spot of mass shooting"_ tab, you can see the mass shooting incident and victim numbers by place type.
+
+Under the _"A bloody history-mass shooting"_ tab, you can see the changes in numbers of victims and cases over the year.
+
+Under the _"Shooters in school"_ tab, you can change the data range and explore shooters' position in that school and why these students committed mass shootings.
+
+#### Other Results and Conclusions
+
+The trend for mass shootings is going up and the shooter tends to be younger. If we do not take precautions, there may be more serious gun issues in the near future. School shootings are persistent, however, this is a very concerning issue. Many students committed homicides because of excessive stress or mental problems, this should alert the educators to give more psychological interventions to guide the students on how to deal with pressure and failures. On the other hand, arising domestic violence is becoming a real trouble, especially for the past decade. To prevent mass shootings, all parties in the society should take actions. People should learn how to deal with troubles and conflicts by other means and how to protect themselves if there is a shooter-in-active situation. The government and Congress should take actions to regulate firearms more strictly if the gun ban is not a feasible option.
+
+
+## Group Members Information
+Shaoxuan Chen(tc2900), Pengfei Jiang(pj2325), Shanshan Song(ss5422), Zenghui Xue(zx2231), and Huijuan Zhang(hz2510)
+
+[Department of Biostatistics](https://www.mailman.columbia.edu/become-student/departments/biostatistics)
+
+[Columbia Mailman School of Public Health](https://www.mailman.columbia.edu/)
+
+New York, New York 10032
+
